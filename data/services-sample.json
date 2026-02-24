@@ -1,0 +1,76 @@
+{
+  "services": [
+    { "slug": "plumber", "name": "Plumber", "category": "home", "stateRestriction": null },
+    { "slug": "electrician", "name": "Electrician", "category": "home", "stateRestriction": null },
+    { "slug": "hvac", "name": "HVAC", "category": "home", "stateRestriction": null },
+    { "slug": "roofing", "name": "Roofing", "category": "home", "stateRestriction": null },
+    { "slug": "landscaping", "name": "Landscaping", "category": "home", "stateRestriction": null },
+    { "slug": "dentist", "name": "Dentist", "category": "health", "stateRestriction": null },
+    { "slug": "chiropractor", "name": "Chiropractor", "category": "health", "stateRestriction": null },
+    { "slug": "veterinarian", "name": "Veterinarian", "category": "pets", "stateRestriction": null },
+    { "slug": "auto-repair", "name": "Auto Repair", "category": "auto", "stateRestriction": null },
+    { "slug": "personal-injury-lawyer", "name": "Personal Injury Lawyer", "category": "legal", "stateRestriction": null }
+  ],
+  "categories": {
+    "home": {
+      "label": "Home Services",
+      "color": "#4ade80",
+      "defaultPains": {
+        "wasted_spend": "Most home service businesses waste 25-40% of their Google Ads budget on irrelevant searches. Generic keywords like 'repair near me' attract clicks from people outside your service area or looking for DIY solutions.",
+        "negatives": "Without a proper negative keyword list, your ads show for searches like 'how to fix' and 'DIY' — people who will never hire you but happily drain your budget.",
+        "geo": "If your geo-targeting isn't tight, you're paying for clicks from people 30+ miles away who will never become customers.",
+        "tracking": "Without conversion tracking, you can't measure what's working. Most home service businesses track clicks, not calls — and 70% of leads come by phone.",
+        "scheduling": "Running ads 24/7 when you only answer phones 8am-6pm means paying for calls that go to voicemail. Voicemail leads convert at less than 10%.",
+        "bidding": "Automated bidding without enough conversion data makes poor decisions. You need 30+ conversions per month before Smart Bidding works reliably."
+      }
+    },
+    "health": {
+      "label": "Healthcare",
+      "color": "#60a5fa",
+      "defaultPains": {
+        "wasted_spend": "Healthcare advertising faces strict compliance requirements and high CPCs. Without proper campaign structure, practices waste 30-50% of spend on non-converting terms.",
+        "negatives": "Medical terms attract informational searches. Someone searching 'what is a root canal' costs you $5-15 per click but has zero intent to book an appointment.",
+        "geo": "Patients typically travel 10-15 minutes for routine care. If your radius is set to 25 miles, you're paying for patients who will never make the drive.",
+        "tracking": "Most healthcare leads are phone calls. Without call tracking, you can't measure which keywords drive actual appointments vs. which drive insurance questions.",
+        "scheduling": "After-hours clicks for non-emergency practices are wasted budget. Align your ad schedule with your front desk hours.",
+        "bidding": "Healthcare CPCs range from $5-50. Without conversion data, automated bidding burns through budgets on high-CPC terms that don't convert."
+      }
+    },
+    "pets": {
+      "label": "Pet Services",
+      "color": "#a78bfa",
+      "defaultPains": {
+        "wasted_spend": "Pet service businesses often target overly broad terms. 'Pet care' could mean grooming, boarding, training, or veterinary — each with different conversion values.",
+        "negatives": "Without negative keywords, you show up for 'free pet adoption' and 'pet insurance' searches that will never convert to your services.",
+        "geo": "Pet owners choose providers close to home or work. A 20-mile radius in urban areas means paying for clicks from pet owners who have 5 closer options.",
+        "tracking": "Most pet service bookings happen by phone. If you're only tracking form submissions, you're missing 60-70% of your actual leads.",
+        "scheduling": "Pet services are booked during business hours. Weekend ads can work for boarding searches, but weekday evenings are typically wasted spend.",
+        "bidding": "Pet service CPCs are moderate ($3-15) but competition is growing fast. Manual bidding lets you pay less during low-intent hours."
+      }
+    },
+    "auto": {
+      "label": "Automotive",
+      "color": "#f0a830",
+      "defaultPains": {
+        "wasted_spend": "Auto repair shops waste budget on brand-specific searches they can't serve and on 'how to' DIY searches that never convert to shop visits.",
+        "negatives": "Car make and model searches attract browsers and DIY mechanics. 'Honda Civic brake pads' is someone shopping on Amazon, not looking for a shop.",
+        "geo": "Drivers choose repair shops within 5-10 minutes of home or work. A 15-mile radius in a metro area is paying for unreachable customers.",
+        "tracking": "Auto repair customers call to book. Without call tracking tied to keywords, you can't tell if your $8 brake pad click or your $25 transmission click drove the appointment.",
+        "scheduling": "Most auto repair appointments are booked Monday-Friday 7am-5pm. Weekend ad spend targets people who are less likely to book immediately.",
+        "bidding": "Emergency searches (car won't start, flat tire) command premium CPCs but convert at 25%+. Budget accordingly."
+      }
+    },
+    "legal": {
+      "label": "Legal Services",
+      "color": "#f87171",
+      "defaultPains": {
+        "wasted_spend": "Legal advertising has some of the highest CPCs in Google Ads ($50-200+). A single poorly targeted campaign can waste thousands in days.",
+        "negatives": "Legal searches are rife with informational intent. 'What is personal injury' and 'can I sue' are research queries, not client acquisition opportunities.",
+        "geo": "Practice areas have different geographic considerations. Personal injury is local; immigration or patent law can be national. Match your geo to your practice.",
+        "tracking": "Law firm leads are phone calls and form fills. Without tracking both, and attributing them to specific practice areas, you're flying blind.",
+        "scheduling": "Legal consultations are typically booked during business hours. After-hours emergency searches exist but are rare outside criminal defense.",
+        "bidding": "At $50-200+ per click, every wasted click is painful. Precise match types and robust negative lists are essential to survival."
+      }
+    }
+  }
+}

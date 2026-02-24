@@ -1,0 +1,61 @@
+# Programmatic SEO Engine
+
+> Generate millions of landing pages at the edge. Zero origin server. < 50ms response times. Cloudflare Pages, Shopify, and WordPress integrations.
+
+Built by [John Williams](https://itallstartedwithaidea.com) — the system behind [googleadsagent.ai](https://googleadsagent.ai)'s 2.3M+ programmatic landing pages.
+
+## What It Does
+
+- Generates city × service landing pages dynamically at the Cloudflare edge
+- Produces Cloudflare Pages Functions, XML sitemaps, and robots.txt from JSON data
+- Tiered indexing: top metros indexed, smaller cities noindex (for paid traffic)
+- Schema.org markup: ProfessionalService, BreadcrumbList, FAQPage
+- E-E-A-T author credentials on every page
+- Lead capture via Web3Forms (free)
+- Works standalone or integrates into Shopify / WordPress
+
+## Scale
+
+- Sample data: 30 cities × 10 services = 300 pages
+- Full data: 18,744 cities × 105+ services = 1,971,336 pages
+- Ecommerce: 18,744 cities × 20 industries = 374,880 pages
+- Total: 2,346,216 pages from a single edge function
+
+## Quick Start
+
+```bash
+git clone https://github.com/itallstartedwithaidea/programmatic-seo-engine.git
+cd programmatic-seo-engine && npm install
+node generate.js
+npm run preview
+```
+
+## Links
+
+- [GitHub Repository](https://github.com/itallstartedwithaidea/programmatic-seo-engine)
+- [Live Example: Plumber in New York](https://googleadsagent.ai/services/new-york-ny/plumber/)
+- [Live Example: HVAC in Phoenix](https://googleadsagent.ai/services/phoenix-az/hvac/)
+- [Live Example: Pet Supplies Ecommerce](https://googleadsagent.ai/ecommerce/new-york-ny/pet-supplies)
+- [Parent Project: googleadsagent.ai](https://googleadsagent.ai)
+- [Builder: It All Started With A Idea](https://itallstartedwithaidea.com)
+
+## Architecture
+
+Data (cities JSON + services JSON + templates HTML) → generate.js → Cloudflare Pages Function (single JS file with embedded data + template) → Edge-rendered HTML at 300+ global locations in < 50ms.
+
+No database. No API calls. No origin server. Everything is embedded in the function.
+
+## SEO Benefits
+
+- Long-tail keyword capture ("plumber in phoenix az")
+- Unique content per page (region narratives, category pain points)
+- Schema.org structured data for AI search integration
+- E-E-A-T compliance with author credentials
+- Tiered indexing preserves crawl budget
+- Google Core Update aligned (Helpful Content, no doorway pages)
+
+## Integration Options
+
+- **Cloudflare Pages** (default): Run generate.js, deploy
+- **Shopify**: Cloudflare Worker reverse proxy in front of Shopify
+- **WordPress**: Plugin (PHP), reverse proxy, or static HTML export

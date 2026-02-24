@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "pet-supplies",
+    "name": "Animals & Pet Supplies",
+    "short": "Pet Supplies",
+    "taxId": 1,
+    "icon": "🐾",
+    "subcats": "Dog Food, Cat Food, Pet Toys, Pet Health, Aquarium Supplies, Small Animal Supplies",
+    "shopping": [
+      "Feed quality and freshness claims must comply with AAFCO standards in product listings",
+      "Amazon dominates branded pet food search — differentiation requires niche positioning",
+      "Subscription models (Chewy, BarkBox) have trained consumers to expect auto-ship discounts",
+      "Product images must show actual product, not lifestyle imagery, for Shopping compliance",
+      "Weight-based shipping for heavy items (litter, large food bags) erodes margins on low-AOV orders"
+    ],
+    "social": [
+      "Pet content performs exceptionally on social — 2-3x engagement rates vs other ecommerce verticals",
+      "User-generated pet photos drive the highest engagement but require content rights management",
+      "Influencer partnerships with pet accounts reach highly targeted audiences at lower CPMs",
+      "Facebook's pet owner targeting combines purchase behavior and interest signals effectively",
+      "Video ads showing pets interacting with products outperform static images by 40-60%"
+    ],
+    "seo": [
+      "Breed-specific and species-specific long-tail keywords have lower competition and higher conversion",
+      "Health and nutrition content builds E-E-A-T for pet supplies — veterinary partnerships add authority",
+      "Product reviews and comparison content capture mid-funnel search intent effectively",
+      "Local pet store SEO competes directly with Chewy and Amazon — emphasize same-day and local pickup",
+      "Seasonal pet content (holiday safety, summer care) captures informational intent year-round"
+    ],
+    "landing": [
+      "Pet size and breed selectors on landing pages personalize the shopping experience",
+      "Subscription options on product pages increase LTV by 60-80% for consumable products",
+      "Auto-ship discount messaging on first-purchase pages drives initial subscription signups",
+      "Trust badges from veterinary organizations and safety certifications increase conversion 15-25%",
+      "Free shipping thresholds should be set at 1.3x average order value to encourage upsells"
+    ],
+    "smallbiz": [
+      "Niche specialization (reptiles, raw pet food, organic treats) avoids direct Amazon competition",
+      "Local pet stores can leverage community events and in-store experiences online competitors can't match",
+      "Subscription boxes with curated products create predictable revenue and reduce CAC over time",
+      "Partnering with local shelters and rescues builds brand awareness and community goodwill",
+      "Private label pet products provide 60-80% margins vs. 20-30% on branded resale"
+    ],
+    "geodemand": "Pet ownership correlates strongly with suburban populations and household size. The highest demand markets include Dallas-Fort Worth, Houston, Phoenix, and Atlanta — all metros with high homeownership rates and family populations. Coastal cities (San Francisco, New York) have smaller per-household pet counts but higher per-pet spending.",
+    "tips": [
+      "Segment Google Shopping campaigns by pet type (dog, cat, fish, reptile) — conversion rates vary 2-3x between species",
+      "Target breed-specific keywords for premium products. 'Large breed dog food' buyers spend 40% more than generic searchers",
+      "Run subscription-focused campaigns separately from one-time purchase campaigns — different LTV economics",
+      "Use customer match lists to target existing customers for cross-sell (dog owner → add cat products)",
+      "Seasonal campaigns for flea/tick season (spring) and holiday gifting (Nov-Dec) drive 40% of annual revenue"
+    ]
+  },
+  {
+    "slug": "electronics",
+    "name": "Electronics",
+    "short": "Electronics",
+    "taxId": 222,
+    "icon": "📱",
+    "subcats": "Smartphones, Computers, Audio, Cameras, Smart Home, Gaming, Accessories",
+    "shopping": [
+      "Price comparison is intense — Google Shopping feeds must update pricing hourly to stay competitive",
+      "Spec-based search queries (RAM, storage, screen size) require structured product data in feeds",
+      "Refurbished and open-box listings need clear condition descriptions to avoid return rate spikes",
+      "Electronics have the highest return rates in ecommerce (15-25%) — factor this into ROAS calculations",
+      "Brand bidding restrictions from manufacturers limit Shopping ad options for authorized retailers"
+    ],
+    "social": [
+      "Unboxing and review video content drives consideration-stage engagement for electronics",
+      "Tech spec comparison content performs well as static carousel ads on Instagram and Facebook",
+      "Electronics purchase decisions involve 5-7 touchpoints — attribution across social and search is critical",
+      "Retargeting electronics browsers is essential — the research phase is 2-4 weeks for major purchases",
+      "Black Friday and Prime Day conditioning means consumers expect deals year-round"
+    ],
+    "seo": [
+      "Spec-based long-tail keywords ('best laptop for video editing 2026') capture high-intent comparison shoppers",
+      "Product review and comparison content is essential for E-E-A-T in electronics",
+      "Technical guides and how-to content builds topical authority and captures informational searches",
+      "Manufacturer model number searches indicate purchase-ready buyers — optimize product pages for these",
+      "AI Overviews are heavily present in electronics searches — structured FAQ schema helps visibility"
+    ],
+    "landing": [
+      "Comparison tables showing specs side-by-side reduce bounce rates by 30-40% on electronics pages",
+      "Financing options (Affirm, Klarna) on landing pages increase conversion 20-35% for items over $200",
+      "Expert review excerpts and ratings on product pages add social proof and reduce decision anxiety",
+      "Live inventory status and shipping estimates reduce cart abandonment for electronics purchases",
+      "Bundle suggestions (laptop + case + charger) increase AOV by 15-25%"
+    ],
+    "smallbiz": [
+      "Niche specialization (gaming peripherals, audio equipment, drone accessories) avoids Amazon price wars",
+      "Expert curation and hands-on testing differentiate small electronics retailers from mass market",
+      "Service and support (setup, repair, training) add revenue streams Amazon can't match",
+      "Refurbished and certified pre-owned markets offer higher margins and growing consumer interest",
+      "B2B electronics (office equipment, AV systems) has less price pressure than consumer markets"
+    ],
+    "geodemand": "Electronics demand is concentrated in tech hubs and high-income metros. San Francisco, Seattle, Austin, and Denver lead in per-capita electronics spending. College towns see spikes during back-to-school season. Urban markets favor compact and portable electronics while suburban markets over-index on home entertainment systems.",
+    "tips": [
+      "Segment campaigns by price tier — a $50 accessory and a $2,000 laptop need completely different bidding strategies",
+      "Target 'vs' comparison keywords ('iPhone vs Samsung', 'Sony vs LG TV') — these indicate active purchase consideration",
+      "Run pre-order and launch day campaigns for new product releases — early adopters have the highest willingness to pay",
+      "Use customer lifetime value bidding — electronics buyers who purchase accessories have 3x the LTV of one-time buyers",
+      "Build seasonal campaigns around Black Friday, Prime Day, and back-to-school — these three windows drive 45% of annual electronics revenue"
+    ]
+  }
+]

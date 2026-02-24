@@ -1,0 +1,35 @@
+{
+  "name": "programmatic-seo-engine",
+  "version": "1.0.0",
+  "description": "Generate millions of programmatic SEO landing pages at the edge. Cloudflare Pages, Shopify, and WordPress integrations included.",
+  "author": "John Williams <john@itallstartedwithaidea.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itallstartedwithaidea/programmatic-seo-engine"
+  },
+  "keywords": [
+    "programmatic-seo",
+    "landing-pages",
+    "cloudflare-pages",
+    "edge-rendering",
+    "lead-generation",
+    "local-seo",
+    "shopify",
+    "wordpress"
+  ],
+  "scripts": {
+    "generate": "node generate.js",
+    "generate:services": "node generate.js --type services",
+    "generate:ecommerce": "node generate.js --type ecommerce",
+    "count": "node generate.js --count",
+    "preview": "npx wrangler pages dev . --port 8788",
+    "deploy": "npx wrangler pages deploy . --project-name=my-seo-pages"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

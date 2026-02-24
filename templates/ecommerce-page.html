@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{INDUSTRY_SHORT}} Ecommerce Advertising in {{FULL_CITY}} — Challenges, Tips & Strategy</title>
+<meta name="description" content="The complete {{INDUSTRY_NAME}} ecommerce advertising guide for {{FULL_CITY}}. Google Shopping challenges, Facebook Ads strategy, SEO opportunities, and actionable tips.">
+<link rel="canonical" href="{{DOMAIN}}/ecommerce/{{CITY_SLUG}}/{{INDUSTRY_SLUG}}">
+{{ROBOTS_TAG}}
+<meta property="og:title" content="{{INDUSTRY_SHORT}} Ecommerce Advertising in {{FULL_CITY}}">
+<meta property="og:description" content="Challenges, strategies, and tips for {{INDUSTRY_NAME}} ecommerce in {{CITY_NAME}}.">
+<meta property="og:url" content="{{DOMAIN}}/ecommerce/{{CITY_SLUG}}/{{INDUSTRY_SLUG}}">
+<meta property="og:type" content="article">
+<meta property="og:image" content="{{OG_IMAGE}}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=JetBrains+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:#08080d;color:#c8bfb0;font-family:'IBM Plex Sans',sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:#60a5fa;text-decoration:none}a:hover{opacity:.85}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#08080dee;backdrop-filter:blur(12px);border-bottom:1px solid #1a1a2a;padding:0 20px;display:flex;align-items:center;height:56px}
+.nav-logo{display:flex;align-items:center;gap:10px;margin-right:auto;text-decoration:none}
+.nav-orb{width:24px;height:24px;background:radial-gradient(circle at 38% 38%,#f0a830,#b07518);border-radius:50%;box-shadow:0 0 12px #f0a83030}
+.nav-title{font-family:'Playfair Display',serif;font-size:15px;color:#f0a830;letter-spacing:.04em}
+.nav-links{display:flex;gap:16px}.nav-links a{font-family:'JetBrains Mono',monospace;font-size:10px;color:#665544;letter-spacing:.04em;text-transform:uppercase}.nav-links a:hover{color:#f0a830}
+.breadcrumb{max-width:960px;margin:0 auto;padding:72px 20px 0;font-family:'JetBrains Mono',monospace;font-size:10px;color:#665544;letter-spacing:.04em}
+.breadcrumb a{color:#665544}.breadcrumb a:hover{color:#f0a830}
+.hero{padding:40px 20px 60px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 25%,#f0a83008 0%,transparent 55%);pointer-events:none}
+.hero-badge{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:10px;color:#f0a830;letter-spacing:.2em;text-transform:uppercase;border:1px solid #f0a83033;padding:6px 16px;border-radius:20px;margin-bottom:20px}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(28px,5vw,52px);color:#f0a830;letter-spacing:.04em;margin-bottom:16px;line-height:1.15}
+.hero h1 .city{color:#c8bfb0}
+.hero-sub{font-size:clamp(14px,1.8vw,18px);color:#887766;max-width:720px;margin:0 auto 20px;line-height:1.7}
+.hero-cats{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:16px}
+.hero-cats span{font-family:'JetBrains Mono',monospace;font-size:10px;color:#665544;border:1px solid #1e1e2e;padding:4px 10px;border-radius:3px;background:#0a0a12}
+.section{padding:60px 20px;max-width:960px;margin:0 auto}
+.section-label{font-family:'JetBrains Mono',monospace;font-size:10px;color:#665544;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px}
+.section h2{font-family:'Playfair Display',serif;font-size:clamp(22px,3.5vw,36px);color:#f0a830;margin-bottom:20px}
+.section-desc{color:#887766;font-size:clamp(13px,1.4vw,15px);line-height:1.8;margin-bottom:24px}
+.pain-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.pain-card{background:#0e0e16;border:1px solid #1e1e2e;border-radius:8px;padding:20px 24px;border-left:3px solid #f87171}
+.pain-card p{font-size:13px;color:#887766;line-height:1.6}
+.form-section{background:#0e0e16;border:1px solid #f0a83033;border-radius:12px;padding:48px 40px;max-width:640px;margin:0 auto}
+.form-section h2{font-family:'Playfair Display',serif;font-size:clamp(20px,3vw,28px);color:#f0a830;margin-bottom:8px;text-align:center}
+.form-sub{font-family:'JetBrains Mono',monospace;font-size:11px;color:#665544;text-align:center;margin-bottom:28px}
+.form-group{margin-bottom:14px}
+.form-group label{display:block;font-family:'JetBrains Mono',monospace;font-size:10px;color:#887766;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+.form-group label .req{color:#f87171}
+.form-group input,.form-group select,.form-group textarea{width:100%;padding:12px 16px;background:#08080d;border:1px solid #1e1e2e;border-radius:6px;color:#c8bfb0;font-family:'IBM Plex Sans',sans-serif;font-size:14px;outline:none;transition:border-color .3s}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:#f0a830}
+.form-group textarea{resize:vertical;min-height:80px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form-submit{width:100%;background:#f0a830;color:#08080d;border:none;padding:16px;border-radius:6px;font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:600;cursor:pointer;margin-top:16px;transition:all .3s}
+.form-submit:hover{transform:translateY(-1px);box-shadow:0 6px 24px #f0a83040}
+.form-submit:disabled{opacity:.5;cursor:not-allowed;transform:none}
+.form-note{font-family:'JetBrains Mono',monospace;font-size:10px;color:#443322;text-align:center;margin-top:12px}
+#fOk{display:none;text-align:center;padding:32px 20px}#fOk h3{font-family:'Playfair Display',serif;font-size:24px;color:#4ade80;margin-bottom:12px}#fOk p{color:#887766;font-size:14px}
+#fErr{display:none;background:#f8717115;border:1px solid #f87171;border-radius:6px;padding:12px;margin-top:12px;color:#f87171;font-size:13px;text-align:center}
+.eeat-block{display:flex;gap:16px;align-items:flex-start;background:#0e0e16;border:1px solid #1e1e2e;border-radius:8px;padding:20px 24px;margin-top:24px}
+.eeat-block .eeat-icon{font-size:32px;flex-shrink:0}
+.eeat-block .eeat-name{font-family:'JetBrains Mono',monospace;font-size:12px;color:#f0a830;margin-bottom:2px}
+.eeat-block .eeat-title{font-family:'JetBrains Mono',monospace;font-size:10px;color:#665544}
+.eeat-block .eeat-desc{font-size:13px;color:#887766;line-height:1.6;margin-top:6px}
+.footer{border-top:1px solid #1a1a2a;padding:40px 20px;text-align:center}
+.footer-links{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-bottom:16px}
+.footer-links a{font-family:'JetBrains Mono',monospace;font-size:10px;color:#665544;letter-spacing:.04em;text-transform:uppercase}
+.footer-links a:hover{color:#f0a830}
+.footer p{font-family:'JetBrains Mono',monospace;font-size:10px;color:#443322}
+@media(max-width:640px){.form-row{grid-template-columns:1fr}.form-section{padding:32px 20px}.hero{padding:30px 16px 40px}}
+</style>
+</head>
+<body>
+<nav class="nav"><a href="/" class="nav-logo"><div class="nav-orb"></div><span class="nav-title">{{BRAND_NAME}}</span></a><div class="nav-links"><a href="/">Home</a></div></nav>
+
+<div class="breadcrumb"><a href="/">Home</a> &rarr; <a href="/ecommerce/">Ecommerce</a> &rarr; {{FULL_CITY}} &rarr; {{INDUSTRY_SHORT}}</div>
+
+<header class="hero">
+  <div class="hero-badge">{{INDUSTRY_ICON}} GOOGLE TAXONOMY ID: {{TAX_ID}}</div>
+  <h1>{{INDUSTRY_SHORT}}<br><span class="city">in {{FULL_CITY}}</span></h1>
+  <p class="hero-sub">The complete ecommerce advertising guide for {{INDUSTRY_NAME}} businesses in {{CITY_NAME}}. Challenges, strategies, and actionable insights across Google Shopping, Facebook Ads, SEO, and conversion optimization.</p>
+  <div class="hero-cats">{{INDUSTRY_SUBCATS}}</div>
+</header>
+
+<div class="section" id="contact">
+  <span class="section-label">FREE STRATEGY</span>
+  <h2>Get Your {{INDUSTRY_SHORT}} Ad Strategy</h2>
+  <p class="section-desc">We'll analyze your ecommerce presence in {{CITY_NAME}} and deliver a custom paid media plan.</p>
+  <div class="form-section">
+    <h2>Request Your Free Audit</h2>
+    <p class="form-sub">{{FULL_CITY}} &middot; {{INDUSTRY_NAME}} &middot; Typically delivered within 24 hours</p>
+    <form id="leadForm">
+      <input type="hidden" name="access_key" value="{{FORM_KEY}}">
+      <input type="hidden" name="subject" value="{{INDUSTRY_SHORT}} Ecommerce Lead — {{FULL_CITY}}">
+      <input type="hidden" name="from_name" value="Ecommerce Lead">
+      <input type="hidden" name="industry" value="{{INDUSTRY_NAME}}">
+      <input type="hidden" name="city" value="{{FULL_CITY}}">
+      <div class="form-row"><div class="form-group"><label>Name <span class="req">*</span></label><input type="text" name="name" required placeholder="Full name"></div><div class="form-group"><label>Email <span class="req">*</span></label><input type="email" name="email" required placeholder="you@company.com"></div></div>
+      <div class="form-row"><div class="form-group"><label>Phone</label><input type="tel" name="phone" placeholder="(555) 555-5555"></div><div class="form-group"><label>Website</label><input type="url" name="website" placeholder="https://yourstore.com"></div></div>
+      <div class="form-group"><label>Monthly Ad Budget</label><select name="budget"><option value="">Select range...</option><option>Under $1,000</option><option>$1,000 – $5,000</option><option>$5,000 – $10,000</option><option>$10,000 – $25,000</option><option>$25,000+</option></select></div>
+      <div class="form-group"><label>About Your Business</label><textarea name="message" placeholder="What products do you sell? What are your biggest advertising challenges?"></textarea></div>
+      <button type="submit" class="form-submit">Get My Free Strategy &rarr;</button>
+      <p class="form-note">No obligation. We respond to every inquiry. Your data stays private.</p>
+    </form>
+    <div id="fOk"><h3>&#10003; Strategy Request Received</h3><p>We'll send your custom strategy for {{CITY_NAME}} within 24 hours.</p></div>
+    <div id="fErr"></div>
+  </div>
+  <div class="eeat-block"><div class="eeat-icon">&#128100;</div><div class="eeat-content"><div class="eeat-name">{{AUTHOR_NAME}}</div><div class="eeat-title">{{AUTHOR_TITLE}} · {{AUTHOR_COMPANY}}</div><div class="eeat-desc">{{AUTHOR_CREDENTIALS}}</div></div></div>
+</div>
+
+<footer class="footer">
+  <div class="footer-links"><a href="/">Home</a></div>
+  <p>&copy; 2026 {{BRAND_NAME}} · {{AUTHOR_NAME}}</p>
+</footer>
+
+<script>
+document.getElementById('leadForm').addEventListener('submit',function(e){e.preventDefault();var f=this;var b=f.querySelector('.form-submit');b.textContent='Sending...';b.disabled=true;
+fetch('https://api.web3forms.com/submit',{method:'POST',body:new FormData(f)}).then(function(r){return r.json();}).then(function(d){
+if(d.success){document.getElementById('fOk').style.display='block';f.style.display='none';document.getElementById('fErr').style.display='none';}
+else{document.getElementById('fErr').textContent='Something went wrong. Please try again.';document.getElementById('fErr').style.display='block';}
+b.textContent='Get My Free Strategy \u2192';b.disabled=false;}).catch(function(){document.getElementById('fErr').textContent='Network error.';document.getElementById('fErr').style.display='block';b.textContent='Get My Free Strategy \u2192';b.disabled=false;});});
+</script>
+</body>
+</html>

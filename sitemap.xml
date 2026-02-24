@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Service Pages (300 pages) -->
+  <sitemap><loc>https://yourdomain.com/sitemaps/sitemap-services-1.xml</loc><lastmod>2026-02-24</lastmod></sitemap>
+
+  <!-- Ecommerce Pages (60 pages) -->
+  <sitemap><loc>https://yourdomain.com/sitemaps/sitemap-ecommerce-1.xml</loc><lastmod>2026-02-24</lastmod></sitemap>
+
+</sitemapindex>
