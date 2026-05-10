@@ -1,0 +1,50 @@
+{
+  "services": [
+    { "slug": "local-business-features", "name": "Local Business Features", "category": "media", "stateRestriction": null },
+    { "slug": "sponsored-business-spotlights", "name": "Sponsored Business Spotlights", "category": "media", "stateRestriction": null },
+    { "slug": "social-media-promotion", "name": "Social Media Promotion", "category": "promotion", "stateRestriction": null },
+    { "slug": "local-event-promotion", "name": "Local Event Promotion", "category": "promotion", "stateRestriction": null },
+    { "slug": "restaurant-food-spotlights", "name": "Restaurant & Food Spotlights", "category": "media", "stateRestriction": null },
+    { "slug": "newsletter-promotions", "name": "Newsletter Promotions", "category": "promotion", "stateRestriction": null },
+    { "slug": "community-local-news-features", "name": "Community & Local News Features", "category": "media", "stateRestriction": null },
+    { "slug": "facebook-advertising", "name": "Facebook Advertising", "category": "advertising", "stateRestriction": null }
+  ],
+  "categories": {
+    "media": {
+      "label": "Media & Spotlights",
+      "color": "#F4B400",
+      "defaultPains": {
+        "wasted_spend": "Most local businesses waste thousands on generic print ads or broad PR that never reaches people actively living and spending in East London.",
+        "negatives": "Without hyper-local targeting, your features get lost in the noise of wider London media, reaching tourists instead of your actual local customer base.",
+        "geo": "If your promotion isn't strictly focused on East London, you're paying for eyeballs in West London who will rarely cross the city for a standard service.",
+        "tracking": "Traditional local magazines can't track engagement. You pay for a placement but have no idea how many people actually read your feature or visited your website.",
+        "scheduling": "Your story needs to be told when people are looking for weekend plans or local services. Timely, digital media features capture audiences in the moment.",
+        "bidding": "High-end PR agencies charge massive retainers without guaranteeing local visibility. A targeted community feature delivers direct local awareness."
+      }
+    },
+    "promotion": {
+      "label": "Local Promotion",
+      "color": "#E53935",
+      "defaultPains": {
+        "wasted_spend": "Many East London businesses boost social posts blindly, wasting budget on users who live miles away or have no interest in local events.",
+        "negatives": "Without understanding local East London demographics, promotions attract engagement from bots or non-local users, draining your budget.",
+        "geo": "East London has distinct, hyper-local neighbourhoods. A promotion in Shoreditch needs different targeting than one in Walthamstow.",
+        "tracking": "Without proper link tracking from newsletters and social promotions, you can't measure actual footfall or bookings generated from your spend.",
+        "scheduling": "Promoting an event on a Wednesday morning wastes budget. We align your promotion schedule with when East Londoners are actively planning their week.",
+        "bidding": "Relying purely on algorithmic reach on Instagram or Facebook is a losing game for local businesses. You need a dedicated, engaged local audience."
+      }
+    },
+    "advertising": {
+      "label": "Digital Advertising",
+      "color": "#60a5fa",
+      "defaultPains": {
+        "wasted_spend": "Businesses waste 25-40% of their Facebook Ad budget on irrelevant placements and broad 'London-wide' targeting.",
+        "negatives": "Without proper audience exclusion, your ads show to people who have already bought from you, or competitors clicking on your ads.",
+        "geo": "Radius targeting in London is flawed. A 5-mile radius from Hackney reaches into entirely different demographics and physical barriers like the river.",
+        "tracking": "If you aren't tracking the full customer journey from ad click to purchase or booking, you are flying blind with your ad spend.",
+        "scheduling": "Running ads 24/7 drains budget during low-converting hours. We optimize for when your local audience is actually active online.",
+        "bidding": "Automated bidding without seasoned campaign structures burns through budgets. You need a targeted, hyper-local strategy."
+      }
+    }
+  }
+}

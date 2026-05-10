@@ -1,68 +1,49 @@
 /**
- * Programmatic SEO Engine — Configuration
- *
- * Copy this file to config.local.js and customize for your deployment.
- * The generator reads config.local.js first, falling back to config.js.
+ * Programmatic SEO Engine — Configuration for East London Spotlight
  */
 
 module.exports = {
-  // Your domain (no trailing slash)
-  domain: 'https://yourdomain.com',
-
-  // Brand name shown in titles, nav, footer
-  brandName: 'Your Brand',
-
-  // URL path prefix for service pages (e.g., /services/city-slug/service-slug/)
+  domain: 'https://EastLondonSpotlight.com',
+  brandName: 'East London Spotlight',
   servicesPrefix: '/services',
-
-  // URL path prefix for ecommerce pages (e.g., /ecommerce/city-slug/industry-slug/)
   ecommercePrefix: '/ecommerce',
-
-  // Web3Forms access key for lead capture forms (free at https://web3forms.com)
-  // Set to null to disable forms
-  web3formsKey: null,
-
-  // Google Tag Manager container ID (e.g., 'GTM-XXXXXXX') — set to null to disable
+  web3formsKey: null, // User prefers Web3Forms but didn't provide a key yet
   gtmId: null,
 
-  // Author / E-E-A-T credentials shown on pages
   author: {
-    name: 'Your Name',
-    title: 'Your Title',
-    company: 'Your Company',
-    companyUrl: 'https://yourcompany.com',
-    credentials: 'Your credentials and experience.',
-    website: 'https://yourwebsite.com',
-    twitter: '@yourhandle',
+    name: 'Rona Rivera Rahman',
+    title: 'Founder & Local Business Promoter',
+    company: 'East London Spotlight',
+    companyUrl: 'https://EastLondonSpotlight.com',
+    credentials: 'Rona Rivera Rahman is the founder of East London Spotlight, a local media and business promotion platform dedicated to supporting small businesses, restaurants, events, and community growth across East London. Born, raised, and working in East London, she is passionate about helping local businesses gain visibility and connect with the right audience.',
+    website: 'https://EastLondonSpotlight.com',
+    twitter: '@EastLondonSpotlight',
   },
 
-  // Pricing shown on service pages (set to null to hide pricing section)
   pricing: {
-    auditLabel: 'Free 30-Day Audit',
-    monthlyFee: '$500/month flat',
-    details: 'No contract, no percentage of spend.',
+    auditLabel: 'Get Featured',
+    monthlyFee: 'Custom Packages',
+    details: 'Contact us for a local visibility plan tailored to your business.',
   },
 
-  // Tiered indexing: only top metros get "index, follow"
-  // Other cities get "noindex, follow" (still accessible as paid landing pages)
   tieredIndexing: true,
-
-  // Max URLs per sitemap file (Google limit is 50,000)
   sitemapMaxUrls: 45000,
+  ogImage: 'https://EastLondonSpotlight.com/og-image.png',
 
-  // OG image URL for social sharing
-  ogImage: 'https://yourdomain.com/og-image.png',
+  // Use the new custom East London datasets
+  citiesFile: 'data/areas-east-london.json',
+  servicesFile: 'data/services-east-london.json',
+  industriesFile: 'data/industries-sample.json', 
 
-  // Colors (CSS variables injected into templates)
   theme: {
-    bg: '#08080d',
-    bg2: '#0e0e16',
-    gold: '#f0a830',
+    bg: '#0B1C2C', // Dark Navy
+    bg2: '#07131D', // Darker Navy
+    gold: '#F4B400', // Gold Accent
     green: '#4ade80',
     blue: '#60a5fa',
-    red: '#f87171',
-    text: '#c8bfb0',
-    text2: '#887766',
-    text3: '#665544',
+    red: '#E53935', // Red
+    text: '#FFFFFF', // White
+    text2: '#B0C4DE', // Light Steel Blue for secondary text
+    text3: '#8FA1B3', // Slate for tertiary text
   },
 };

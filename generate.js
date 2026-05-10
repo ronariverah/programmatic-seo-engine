@@ -85,25 +85,33 @@ if (countOnly) {
 
 // ─── Region mapping ───
 const STATE_REGIONS = {
-  ME:'Northeast',NH:'Northeast',VT:'Northeast',MA:'Northeast',RI:'Northeast',CT:'Northeast',
-  NY:'Northeast',NJ:'Northeast',PA:'Northeast',DE:'Northeast',MD:'Northeast',DC:'Northeast',
-  VA:'Southeast',WV:'Southeast',NC:'Southeast',SC:'Southeast',GA:'Southeast',FL:'Southeast',
-  AL:'Southeast',MS:'Southeast',TN:'Southeast',KY:'Southeast',
-  OH:'Midwest',IN:'Midwest',IL:'Midwest',MI:'Midwest',WI:'Midwest',MN:'Midwest',
-  IA:'Midwest',MO:'Midwest',ND:'Midwest',SD:'Midwest',NE:'Midwest',KS:'Midwest',
-  TX:'Southwest',OK:'Southwest',AR:'Southwest',LA:'Southwest',AZ:'Southwest',NM:'Southwest',
-  CO:'Mountain',WY:'Mountain',MT:'Mountain',ID:'Mountain',UT:'Mountain',NV:'Mountain',
-  WA:'Pacific',OR:'Pacific',CA:'Pacific',HI:'Pacific',AK:'Pacific'
+  LND: 'Greater London',
+  SE: 'South East',
+  SW: 'South West',
+  NW: 'North West',
+  NE: 'North East',
+  YH: 'Yorkshire',
+  WM: 'West Midlands',
+  EM: 'East Midlands',
+  EA: 'East of England',
+  SC: 'Scotland',
+  WA: 'Wales',
+  NI: 'Northern Ireland'
 };
 
 const REGION_TRAITS = {
-  Northeast: 'densely competitive market with high CPCs',
-  Southeast: 'fast-growing market with increasing digital ad adoption',
-  Midwest: 'market where CPCs are lower than coastal cities but competition is rising',
-  Southwest: 'rapidly expanding market driven by population growth and relocation',
-  West: 'tech-savvy, high-income market where consumers research thoroughly before choosing',
-  Mountain: 'emerging market with strong growth potential and less established competition',
-  Pacific: 'premium market with sophisticated consumers and high customer lifetime values'
+  'Greater London': 'densely competitive market with high CPCs',
+  'South East': 'premium market with sophisticated consumers and high customer lifetime values',
+  'South West': 'market with varied demographics and growing digital adoption',
+  'North West': 'fast-growing market with increasing digital ad competition',
+  'North East': 'emerging market with strong growth potential',
+  'Yorkshire': 'competitive local market where value for money is key',
+  'West Midlands': 'industrial and commercial hub with rising CPCs',
+  'East Midlands': 'market where CPCs are balanced but competition is rising',
+  'East of England': 'tech-savvy market where consumers research thoroughly before choosing',
+  'Scotland': 'distinct regional market with strong local loyalty',
+  'Wales': 'market driven by local reputation and community',
+  'Northern Ireland': 'tightly-knit market where localized messaging is essential'
 };
 
 // ─── Helper: build compact city data string ───

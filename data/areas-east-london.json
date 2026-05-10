@@ -1,0 +1,19 @@
+[
+  { "slug": "shoreditch", "name": "Shoreditch", "state": "EL", "population": 15000 },
+  { "slug": "hackney", "name": "Hackney", "state": "EL", "population": 280000 },
+  { "slug": "stratford", "name": "Stratford", "state": "EL", "population": 50000 },
+  { "slug": "canary-wharf", "name": "Canary Wharf", "state": "EL", "population": 12000 },
+  { "slug": "bethnal-green", "name": "Bethnal Green", "state": "EL", "population": 30000 },
+  { "slug": "whitechapel", "name": "Whitechapel", "state": "EL", "population": 15000 },
+  { "slug": "bow", "name": "Bow", "state": "EL", "population": 25000 },
+  { "slug": "walthamstow", "name": "Walthamstow", "state": "EL", "population": 110000 },
+  { "slug": "dalston", "name": "Dalston", "state": "EL", "population": 15000 },
+  { "slug": "leyton", "name": "Leyton", "state": "EL", "population": 14000 },
+  { "slug": "poplar", "name": "Poplar", "state": "EL", "population": 20000 },
+  { "slug": "isle-of-dogs", "name": "Isle of Dogs", "state": "EL", "population": 40000 },
+  { "slug": "wapping", "name": "Wapping", "state": "EL", "population": 12000 },
+  { "slug": "stepney", "name": "Stepney", "state": "EL", "population": 16000 },
+  { "slug": "hackney-wick", "name": "Hackney Wick", "state": "EL", "population": 11000 },
+  { "slug": "spitalfields", "name": "Spitalfields", "state": "EL", "population": 12000 },
+  { "slug": "clarkengwell", "name": "Clerkenwell", "state": "EL", "population": 11000 }
+]

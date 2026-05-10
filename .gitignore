@@ -3,3 +3,4 @@ config.local.js
 .wrangler/
 *.log
 .DS_Store
+.env
